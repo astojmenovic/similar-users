@@ -1,4 +1,8 @@
-# similar-users
+# Similar Users algorithm implementation
 
-Koriscenjem biblioteka "poi-3.15, poin-ooxml-3.15, poi-ooxml-schemas-3.15" citamo podatke iz .xlsx fajla. Podaci u fajlu predstavljaju ocene korisnika za odredjene filmove (Imamo IDkorisnika, IDFilma i Ocenu).
-Koriscenjem Euklidskog rastojanja, algoritam racuna slicnost izmedju 2 korisnika. Algoritam vraca rezultat izmedju 0.0 i 1.0, ako nema slicnosti rezultat je 0.0, a sto su korisnici slicniji, to je rezultat blizi 1.0.
+Implemented algorithm from the book “Collective Intelligence” for showing similarity between two users. 
+* Used Euclidean distance formula to calculate similarity. 
+* Imported library for reading data from Excel file in Java. 
+* Data set have 100 000 user ratings for movies. 
+
+Algorithm returns value between 0.0 and 1.0, if 2 users don't rate the same movies, result will be 0.0, but if the ratings for the common movies are the same, result will be 1.0.
