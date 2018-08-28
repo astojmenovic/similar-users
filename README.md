@@ -1,6 +1,6 @@
 # Similar Users algorithm implementation
 
-Implemented algorithm from the book “Collective Intelligence” for showing similarity between two users. 
+Implemented algorithm from the book “Programming Collective Intelligence” by Toby Segaran for showing similarity between two users. 
 * Used Euclidean distance formula to calculate similarity. 
 * Imported library for reading data from Excel file in Java. 
 * Data set have 100 000 user ratings for movies. 
